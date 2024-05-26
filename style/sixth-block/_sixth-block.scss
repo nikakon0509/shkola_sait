@@ -1,0 +1,56 @@
+.sixth-block{
+    padding-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    h1{
+        display: flex;
+        justify-content: center;
+        color:rgb(0, 0, 0);
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .reviews{
+        margin: 2%;
+        .review{
+            border: #33852f 5px solid;
+            border-radius: 5px;
+            padding: 1% 2%;
+            margin: 1% 0%;
+        }
+        p{
+            text-align: left;
+            margin-bottom: 1px;
+        }
+        .info{
+            font-size: 10pt;
+            margin-right: 0%;
+            margin-left: auto;
+            width: fit-content;
+            display: flex;
+            text-align: right;
+            .text{
+                width: fit-content;
+            }
+            p{
+                display: flex;
+                flex-direction: column;
+                margin: 4%;
+            }
+            img{
+                margin-top: auto;
+                margin-bottom: auto;
+                margin-left: 5%;
+                height: fit-content;
+                border-radius: 50%;
+            }
+            .date{
+                text-align: right;
+            }
+            .name{
+                color: #33852f;
+                font-weight: 600;
+                text-align: right;
+            }
+        }
+    }
+    
+}

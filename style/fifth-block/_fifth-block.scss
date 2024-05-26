@@ -1,0 +1,61 @@
+.fifth-block{
+    padding-bottom: 0%;
+    margin-bottom: -11%;
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+    h1{
+        display: flex;
+        justify-content: center;
+        color:rgb(0, 0, 0);
+        font-size: 40px;
+        font-weight: bold;
+    }
+    button{
+        margin: 0;
+        padding: 0;
+        border: none;
+        border-radius: 100%;
+        width: 5%;
+        margin-top: auto;
+        margin-bottom: auto;
+        img{
+            width: 100%;
+        }        
+    }
+    .cards{
+        justify-content: center;
+        background-color: white;
+        display: flex;
+        .card{
+            display: none;
+            background-color: #33852f;
+            border-radius: 5px;
+            width: 25%;
+            text-align: center;
+            margin: 2%;
+
+            img{
+                border-radius: 5px 5px 0px 0px;
+                width: 100%;
+            }
+            h2{
+                height: 8vh;
+                padding: 5%;
+                margin-bottom: 15%;
+                color: yellow;
+                font-size: 15px;
+                font-weight: 300;
+            }
+            p{
+                
+                color: white;
+                font-size: 30px;
+                font-weight: bold;
+            }
+        }
+        .card.active{
+            display: block;
+            margin-bottom: 10%;
+        }
+    }
+}

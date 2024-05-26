@@ -1,0 +1,63 @@
+.modal-window{
+    display: none;
+    position: sticky;
+    top: 10%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    margin: auto;
+    margin-top: 0%;
+    width: 30%;
+    background-color: #fffab7;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 10px;
+    padding: 5% 10%;
+    font-weight: bold;
+    h1{
+        text-align: left;
+        color:#ff6200;
+        font-size: 20pt;
+    }
+    p{
+        color: black;
+        font-size: 10pt;
+    }
+    button{
+        background-color: #33852f;
+        font-size: 20pt;
+        border: solid 2pt #fff67c;
+        border-radius: 100px;
+        padding: 1% 5%;
+        width: fit-content;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        color:#fff67c;
+        
+    }
+    .cross{
+        padding: 1% 2%;
+        margin-right: -15%;
+        margin-bottom: -10% ;
+        margin-left:auto ;
+        font-size: 15pt;
+    }
+    input{
+        display: flex;
+        margin: 10% auto 5% auto;
+        width: 100%;
+        height: 40pt;
+        font-size: 30pt;
+        background-color: white;
+        border: solid 2px #fff67c;
+        border-radius: 10pt;
+    }
+
+}
+.modal-window.active{
+    margin: auto;
+    margin-bottom: -32%;
+    display: block;
+    height: fit-content;
+}

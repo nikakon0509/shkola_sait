@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0">
+    <title>Помогатор</title>
+    <link rel="icon" href="./style/image/cosmos.png">
+    <link rel = "stylesheet" href = "./style/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+</head>
+    <body>
+        <header>
+            <div class="container">
+
+                <div class="header-box">
+
+                    <div>
+                        <img class="logo" src="./style/image/logo.svg">
+                    </div>
+
+                    <div class="navigation">
+                        <a href='#forth-block'><p>Предметы</p></a>
+                        <a href='#fifth-block'><p>Преподаватели</p></a>
+                        <a href='#sixth-block'><p>Отзывы</p></a>
+                        <p>+7(958) 611-11-52</p>
+                    </div>
+        
+                    <img  class="icons" src="./style/image/icons-header 1.svg">
+
+                    <div class="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </header>
+        <div class="menu">
+            <a href='#forth-block'><p>Предметы</p></a>
+            <a href='#fifth-block'><p>Преподаватели</p></a>
+            <a href='#sixth-block'><p>Отзывы</p></a>
+            <p>+7(958) 611-11-52</p>
+            
+        </div>
+
+        <div class="modal-window">
+            <button class="cross" id = 'cross'>&#10006</button>
+            <h1>
+                Подберите предмет и запишитесь
+                на бесплатное первое занятие
+            </h1>
+            <p>Мы свяжемся с вами и запишем на пробный урок. Ребенок проведет полноценное занятие,
+                 где сможет решить реальный вопрос по учебе, 
+                познакомится с преподавателем, а вы оцените качество обучения.</p>
+            <form action="" method="get">
+                <input type="tel" placeholder="Телефон:">
+                <button type="submit" class="button">Оставить заявку</button>
+            </form>
+        </div>
+        
+        <div class="sec-block">
+            <div class="container">
+
+                <div class="sec-block-box">
+
+                    <div class="left">
+                        <h1>Онлайн помощь  с<br> выполнением <br> домашних заданий</h1>
+                        <h2>для детей 1 - 9 класса</h2>
+                        <p>Поможем ребенку с пробелами в <br> школьной программе и выполнении <br> домашних заданий онлайн</p>
+                        <button type="button" class="button" id='open'>Бесплатный урок</button> 
+                    </div>
+                    <div class="rigth">
+                        <img src="./style/image/OIG4 (1).jpg" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        
+
+        <div class="major">
+            
+            <div class="container">
+
+                <div class="major-box">
+
+                    <div class="pomoch"> <h2>Помогатор.ДЗ это</h2></div>
+
+                    <div class="third-block"> 
+
+                        <div class="l_part">
+                            <div class="fir">
+                                <img src="./style/image/lampochka.png" alt="">
+                                <div class="maiin">
+                                    <div class="accordion">Подготовка к школе</div>
+                                    <div class="content">Подготовим ребенка к 1-му классу,<br> заложим базу для мягкой адаптациив школе.</div>
+                                </div>
+                            
+                            </div>
+                            <div class="sec">
+                                <img src="./style/image/pensil.png" alt="">
+                                <div class="maiin">
+                                    <div class="accordion">Подготовка к ЕГЭ/ОГЭ</div>
+                                    <div class="content">Поможем сдать экзамены на 80+<br> и поступить в вуз мечты. Подготовим<br> ко всем предметам и поддержим в <br>самый ответственный момент.</div>
+                                </div>
+                               
+                            </div>
+                        </div>
+
+                        <div class="r_part">
+                            <div class="thir">
+                            
+                                <img src="./style/image/shapka.png" alt="">
+                                <div class="maiin">
+                                    <div class="accordion">Школьная программа</div>
+                                    <div class="content">Догоним и перегоним класс по<br> программе, позаботимся о домашних<br> работах и заинтересуем учебой.</div>
+                                 </div>
+                          
+                            </div>
+                            <div class="forth">
+                                <img src="./style/image/cosmos.png" alt="">
+                                <div class="maiin">
+                                    <div class="accordion">Кружки</div>
+                                    <div class="content">Поможем развить таланты и <br>расширим кругозор с репетиторами <br>по программированию, языкам, музыке<br> и многому другому.</div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="forth-block" id="forth-block">
+                    <h1> 
+                        Предметы
+                    </h1>
+                    <div class="buttons">
+                        <!--data-tab - создание номер id, по которому можно будет подсоединить соответствующий текст к кнопке--> 
+                        <button class="tabButton active" type="button" data-tab="#tab_1"><p><img src='./style/image/shapka.png'>Школьная программа</p></button>  
+                        <button class="tabButton" type="button" data-tab="#tab_2"><img src='./style/image/languages.png'>Языки</button>
+                        <button class="tabButton" type="button" data-tab="#tab_3"><img src='./style/image/cosmos.png'>Кружки</button>
+                    </div>
+                    <div class="windows">
+                        <div class="window active" id="tab_1">
+                            <p>Начальная школа<br>Математика<br>Русский язык<br>Физика<br>Литература<br>История</p>
+                            <p>Обществознание<br>Химия<br>Окружающий мир<br>Биология<br>География<br>Информатика</p>
+                        </div>
+                        <div class="window" id="tab_2">
+                            <p>Английский<br>Немецкий<br>Французский<br>Испанский</p>
+                        </div>
+                        <div class="window" id="tab_3">
+                            <p>Шахматы<br>Музыка<br>Программирование<br>Вокал</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="fifth-block" id="fifth-block">
+                <h1>Преподаватели</h1>
+                <div class="cards">
+                        <button class="sliderButton" type="button" id="leftButton"><img src="./style/image/but_l.png"></button>
+                    <div class="card active">
+                        <img src="./style/image/olga.jpg">
+                        <h2>Начальные классы</h2>
+                        <p>Ольга</p>
+                    </div>
+                    <div class="card active">
+                        <img src="./style/image/teach.jpg">
+                        <h2>Математика, подготовка к ЕГЭ, ОГЭ и ВПР, начальные классы</h2>
+                        <p>София</p>
+                    </div>
+                    <div class="card active">
+                        <img src="./style/image/teach1.png">
+                        <h2>Начальные классы</h2>
+                        <p>Александра</p>
+                    </div>
+                    <div class="card">
+                        <img src="./style/image/teach4.jpg">
+                        <h2>Психология</h2>
+                        <p>Ирина</p>
+                    </div>
+                    <div class="card">
+                        <img src="./style/image/olga.jpg">
+                        <h2>Начальные классы</h2>
+                        <p>Ольга</p>
+                    </div>
+                    <div class="card">
+                        <img src="./style/image/sofi.png">
+                        <h2>Математика, подготовка к ЕГЭ, ОГЭ и ВПР, начальные классы</h2>
+                        <p>София</p>
+                    </div>
+                    <button class="sliderButton" type="button" id="rightButton"><img src="./style/image/but_r.png"></button>
+                </div>
+            </div>
+
+                <div class="sixth-block" id="sixth-block">
+                    <div class="reviews">
+                        <div class="filtration" style="justify-content: center; align-items: center; display: flex; flex-direction: column;" >
+                            <h2 style="margin-left: auto; margin-right: auto; color: black; font-size: 40px;
+                            font-weight: bold; font-family: Montserrat, sans-serif;">Отзывы</h2>
+                            <div id="filter">
+                                <button class="filter-button" data-filter="all">Все</button>
+                                <button class="filter-button" data-filter="one">2022</button>
+                                <button class="filter-button" data-filter="two">2023</button>
+                              </div>
+                              
+                              <div id="items" style="color: black; display: flex; flex-direction: column;">
+                                <div class="item one active" >
+                                    <div class="review">
+                                        <p>Хочу выразить благодарность Вам за профессионализм !
+                                            У сына большие проблемы с алгеброй.. Заниматься 
+                                            с репетиторами наотрез отказывался. 
+                                            Дома дз по алгебре делали с криками и скандалами....</p>
+                                        <div class="info">
+                                            <div class="text">
+                                                <p class="name">Анжелика Година</p>
+                                                <p class="date">17.11.2022</p>
+                                            </div>
+                                        <img src="./style/image/angeli.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item one active">
+                                    <div class="review">
+                                        <p>Сестра занимается математикой с репетиром. На занятиях они повторяют 
+                                            пройденный материал. Репетитор подробно объясняет, отвечает на все вопросы.</p>
+                                        <div class="info">
+                                            <div class="text">
+                                                <p class="name">Алия Бабакулиева</p>
+                                                <p class="date">14.03.2022</p>
+                                            </div>
+                                            <img src="./style/image/alia.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item two active">
+                                    <div class="review">
+                                        <p>Ребёнок занимается математикой с репетиром чуть больше месяца.
+                                                Делают домашнее задание и повторяют пройденный материал. Ему нравится, 
+                                                хотя сначала был категорически против занятий. Мне тоже нравится, 
+                                                что не приходится с ним сидеть до ночи, делая уроки. 
+                                            Хорошие цены, особенно при по покупке абонемента.</p>
+                                        <div class="info">
+                                            <div class="text">
+                                                <p class="name">Наталия Черных</p>
+                                                <p class="date">09.06.2023</p>
+                                            </div>
+                                        <img src="./style/image/natali.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item two active">
+                                    <div class="review">
+                                        <p>Занимаемся с прекрасным преподавателем Лидией. Сын полюбил математику
+                                                ,с удовольствием ее делает. 
+                                            Преподаватель нашёл подход к моему ребёнку, за что отдельное спасибо</p>
+                                        <div class="info">
+                                            <div class="text">
+                                                <p class="name">Виолетта Гомонова</p>
+                                                <p class="date">13.03.2023</p>
+                                            </div>
+                                            <img src="./style/image/violet.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            
+        </div> 
+
+        
+
+
+        <footer>
+            <div class="container">
+
+                <div class = "basement_elem1">
+                    <p>Сообщество репетиторов "Помогатор"</p>
+                    <p>da@pomogatordz.ru</p>
+                    <p>+7 (958) 111-68-55</p>
+                    <p><span>Договор оферты</span></p>
+                    <p><span>Политика конфиденциальности</span></p>
+                    <p class="last">© 2021-2022 Помогатор. Онлайн-сервис помощи с выполнением домашнего задания для детей 1-9 класса.</p>
+                </div>
+
+            </div>
+        </footer>
+        <script src="./style/filter.js"></script>
+        <script src="./style/tabs.js"></script>
+        <script src="./style/modal_window.js"></script>
+        <script src="./style/accordion.js"></script>
+        <script src="./style/slider.js"></script>
+        <script defer src="Js/burger.js"></script>
+    </body>

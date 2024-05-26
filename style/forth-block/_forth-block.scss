@@ -1,0 +1,55 @@
+.forth-block{
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+    h1{
+        display: flex;
+        justify-content: center;
+        color:rgb(0, 0, 0);
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        button{
+            width: 30%;
+            border: 0;
+            font-size: 18pt;
+            font-weight: 600;
+            text-decoration: underline 3px;
+            text-decoration-color: #33852f;
+            background-color: white;
+        }
+        .tabButton{
+            margin-bottom: auto;
+            margin-top: auto;
+            p{
+                justify-content: center;
+            }
+            img{
+                padding-right: 3%;
+                width:3vw;
+                height: fit-content;
+            }
+        }
+        .tabButton.active{
+            font-weight: 700;
+            text-decoration: underline 3px #33852f;
+        }
+    }
+    .window{
+        display: none;
+        justify-content: center;
+        p{
+            margin: 2% 5% 5% 5%;
+            font-size: 17pt;
+        }
+    }
+    .window.active{
+        display: flex;
+    }
+    .tabButton:hover, .tabButton.active:hover{
+        text-decoration: underline 3px #201e23;
+    }
+    
+}
